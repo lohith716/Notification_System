@@ -39,3 +39,4 @@ The system simulates a structured communication model with the following concept
 - 💬 **Real-time messaging and notification system**.
 - 🧠 **Command parsing and routing** handled server-side.
 - 🖼 **Client GUI** for interactive use (based on Tkinter).
+- 
