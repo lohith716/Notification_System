@@ -90,20 +90,3 @@ def send_message(message):
         entry_field.delete(0, tk.END)
 
 root.mainloop()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
