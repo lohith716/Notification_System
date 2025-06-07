@@ -41,7 +41,8 @@ def handle_client(conn, addr):
         msg = f"Msg received from {NICKNAME[index]}: {msg}"
         conn.send(msg.encode(FORMAT))
     conn.close()
- 
+
+
 def main():
     print("[STARTING] Server is starting ...")
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
