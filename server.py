@@ -2,6 +2,7 @@ import socket
 import threading
 import ssl
 
+
 CERTF = "ssl-certificate.pem"
 KEYF = "private-key.pem"
 IP = socket.gethostbyname(socket.gethostname())
@@ -55,6 +56,7 @@ def main():
     server.listen()
     print(f"[LISTENING] Server is listening on {IP}:{PORT}")
 
+    
     while True:
         conn, addr = server.accept()
         conn.send("NICK".encode(FORMAT))
@@ -66,6 +68,70 @@ def main():
         CLIENTS.append((conn, addr))
         NICKNAME.append(nick)
         print(NICKNAME)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 if __name__ == "__main__":
