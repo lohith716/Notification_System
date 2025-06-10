@@ -4,7 +4,6 @@ import ssl
 import tkinter as tk
 from tkinter import ttk
 
-
 FORMAT = "utf-8"
 nickname = input("Choose Your Nickname:")
 port = 5566
