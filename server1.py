@@ -54,7 +54,6 @@ def main():
     server.listen()
     print(f"[LISTENING] Server is listening on {IP}:{PORT}")
 
-    
     while True:
         conn, addr = server.accept()
         conn.send("NICK".encode(FORMAT))
