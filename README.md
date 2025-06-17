@@ -3,7 +3,7 @@
 This project is a Python-based implementation of a **secure client-server notification system** using a **conceptual three-tier architecture**. It demonstrates how clients can communicate securely with a server, send structured commands, and receive real-time notifications, making it ideal for educational use in network programming and secure communication.
 
 ---
-
+ 
 ## 📌 Project Overview
 
 The system simulates a structured communication model with the following conceptual tiers:
