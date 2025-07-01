@@ -1,4 +1,4 @@
-import socket 
+import socket
 import threading
 import ssl
 import tkinter as tk
